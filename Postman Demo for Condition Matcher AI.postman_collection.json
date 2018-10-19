@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "3d3138f2-a441-462d-a42a-f53acfdff4c4",
+		"name": "Postman Demo for Condition Matcher AI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "condition matcher azure function test remote",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; charset=utf-8"
+					},
+					{
+						"key": "x-functions-key",
+						"value": "F7PQOaLHAvFir3l4/5TgFn7t4CJ5syOWM7V6snj2RRl9P81U11wj8g=="
+					},
+					{
+						"key": "version",
+						"value": "v2",
+						"type": "text"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://sopapi.govlawtech.com.au/api/suggestSoPCondition?conditionAsDescribedByUser=ivdp, lumbar spondylosis",
+					"protocol": "https",
+					"host": [
+						"sopapi",
+						"govlawtech",
+						"com",
+						"au"
+					],
+					"path": [
+						"api",
+						"suggestSoPCondition"
+					],
+					"query": [
+						{
+							"key": "conditionAsDescribedByUser",
+							"value": "ivdp, lumbar spondylosis"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
