@@ -128,10 +128,22 @@
       "code" : "M76.6"
     } ]
   }, {
-    "conditionName" : "Alzheimer-type dementia",
-    "rhRegisterId" : "F2017C00820",
-    "bopRegisterId" : "F2014C00072",
-    "icdCodes" : [ ]
+    "conditionName" : "Alzheimer disease",
+    "rhRegisterId" : "F2019L00240",
+    "bopRegisterId" : "F2019L00239",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "G30.0"
+    }, {
+      "version" : "ICD-10-AM",
+      "code" : "G30.1"
+    }, {
+      "version" : "ICD-10-AM",
+      "code" : "G30.8"
+    }, {
+      "version" : "ICD-10-AM",
+      "code" : "G30.9"
+    } ]
   }, {
     "conditionName" : "Barrett's oesophagus",
     "rhRegisterId" : "F2016L01135",
@@ -177,9 +189,9 @@
       "code" : "E24.9"
     } ]
   }, {
-    "conditionName" : "Dupuytren's disease",
-    "rhRegisterId" : "F2010L01676",
-    "bopRegisterId" : "F2010L01671",
+    "conditionName" : "Dupuytren disease",
+    "rhRegisterId" : "F2019L00007",
+    "bopRegisterId" : "F2019L00008",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M72.0"
@@ -345,8 +357,8 @@
     } ]
   }, {
     "conditionName" : "acute articular cartilage tear",
-    "rhRegisterId" : "F2010L01666",
-    "bopRegisterId" : "F2010L01667",
+    "rhRegisterId" : "F2019L00233",
+    "bopRegisterId" : "F2019L00234",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "acute infectious mononucleosis",
@@ -366,8 +378,8 @@
     } ]
   }, {
     "conditionName" : "acute meniscal tear of the knee",
-    "rhRegisterId" : "F2010L01668",
-    "bopRegisterId" : "F2010L01669",
+    "rhRegisterId" : "F2019L00246",
+    "bopRegisterId" : "F2019L00247",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "S83.2"
@@ -401,8 +413,8 @@
     } ]
   }, {
     "conditionName" : "acute stress disorder",
-    "rhRegisterId" : "F2014L00469",
-    "bopRegisterId" : "F2014L00470",
+    "rhRegisterId" : "F2018C00636",
+    "bopRegisterId" : "F2018C00637",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "adenocarcinoma of the kidney",
@@ -422,16 +434,16 @@
     } ]
   }, {
     "conditionName" : "adjustment disorder",
-    "rhRegisterId" : "F2016L00269",
-    "bopRegisterId" : "F2016L00270",
+    "rhRegisterId" : "F2018C00629",
+    "bopRegisterId" : "F2018C00630",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "F43.2"
     } ]
   }, {
     "conditionName" : "adrenal insufficiency",
-    "rhRegisterId" : "F2009L04045",
-    "bopRegisterId" : "F2009L04046",
+    "rhRegisterId" : "F2018L01182",
+    "bopRegisterId" : "F2018L01183",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "E27.1"
@@ -461,8 +473,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "alcohol use disorder",
-    "rhRegisterId" : "F2017L01045",
-    "bopRegisterId" : "F2017L01046",
+    "rhRegisterId" : "F2018C00648",
+    "bopRegisterId" : "F2018C00652",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "allergic contact dermatitis",
@@ -543,8 +555,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "anxiety disorder",
-    "rhRegisterId" : "F2016C00973",
-    "bopRegisterId" : "F2016C00974",
+    "rhRegisterId" : "F2018C00638",
+    "bopRegisterId" : "F2018C00639",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "aortic aneurysm",
@@ -660,8 +672,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "blepharitis",
-    "rhRegisterId" : "F2010L02302",
-    "bopRegisterId" : "F2010L02303",
+    "rhRegisterId" : "F2019L00251",
+    "bopRegisterId" : "F2019L00252",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "bronchiectasis",
@@ -670,8 +682,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "bronchiolitis obliterans organising pneumonia",
-    "rhRegisterId" : "F2009L03225",
-    "bopRegisterId" : "F2009L03226",
+    "rhRegisterId" : "F2018L01178",
+    "bopRegisterId" : "F2018L01179",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "bruxism",
@@ -688,8 +700,8 @@
     } ]
   }, {
     "conditionName" : "cardiomyopathy",
-    "rhRegisterId" : "F2017C00845",
-    "bopRegisterId" : "F2017C00844",
+    "rhRegisterId" : "F2018C00643",
+    "bopRegisterId" : "F2018C00644",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "I42"
@@ -740,7 +752,7 @@
     } ]
   }, {
     "conditionName" : "cerebrovascular accident",
-    "rhRegisterId" : "F2017C00874",
+    "rhRegisterId" : "F2018C00672",
     "bopRegisterId" : "F2017C00775",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -854,8 +866,8 @@
     } ]
   }, {
     "conditionName" : "chondromalacia patella",
-    "rhRegisterId" : "F2010L02318",
-    "bopRegisterId" : "F2010L02319",
+    "rhRegisterId" : "F2018L01834",
+    "bopRegisterId" : "F2018L01836",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M22.4"
@@ -871,13 +883,18 @@
     "bopRegisterId" : "F2017C00796",
     "icdCodes" : [ ]
   }, {
+    "conditionName" : "chronic insomnia disorder",
+    "rhRegisterId" : "F2019L00228",
+    "bopRegisterId" : "F2019L00230",
+    "icdCodes" : [ ]
+  }, {
     "conditionName" : "chronic lymphocytic leukaemia/small lymphocytic lymphoma",
     "rhRegisterId" : "F2016C00270",
     "bopRegisterId" : "F2014L01147",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "chronic multisymptom illness",
-    "rhRegisterId" : "F2014L00524",
+    "rhRegisterId" : "F2018C00633",
     "bopRegisterId" : "F2014L00525",
     "icdCodes" : [ ]
   }, {
@@ -906,8 +923,8 @@
     } ]
   }, {
     "conditionName" : "chronic pruritus ani",
-    "rhRegisterId" : "F2010L02314",
-    "bopRegisterId" : "F2010L02315",
+    "rhRegisterId" : "F2019L00254",
+    "bopRegisterId" : "F2019L00256",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "chronic solvent encephalopathy",
@@ -972,8 +989,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "concussion",
-    "rhRegisterId" : "F2012L01809",
-    "bopRegisterId" : "F2012L01810",
+    "rhRegisterId" : "F2018L01492",
+    "bopRegisterId" : "F2018L01493",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "conductive hearing loss",
@@ -1002,6 +1019,14 @@
     "rhRegisterId" : "F2016L00567",
     "bopRegisterId" : "F2016L00571",
     "icdCodes" : [ ]
+  }, {
+    "conditionName" : "de Quervain tendinopathy",
+    "rhRegisterId" : "F2019L00242",
+    "bopRegisterId" : "F2019L00241",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "M65.4"
+    } ]
   }, {
     "conditionName" : "decompression sickness",
     "rhRegisterId" : "F2014L01830",
@@ -1059,8 +1084,8 @@
     } ]
   }, {
     "conditionName" : "dental malocclusion",
-    "rhRegisterId" : "F2011L00489",
-    "bopRegisterId" : "F2011L00499",
+    "rhRegisterId" : "F2019L00224",
+    "bopRegisterId" : "F2019L00225",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "K07.2"
@@ -1102,8 +1127,8 @@
     } ]
   }, {
     "conditionName" : "depressive disorder",
-    "rhRegisterId" : "F2016C00271",
-    "bopRegisterId" : "F2016C00273",
+    "rhRegisterId" : "F2018C00661",
+    "bopRegisterId" : "F2018C00663",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "dermatomyositis",
@@ -1215,8 +1240,8 @@
     } ]
   }, {
     "conditionName" : "eating disorder",
-    "rhRegisterId" : "F2016L00261",
-    "bopRegisterId" : "F2016L00264",
+    "rhRegisterId" : "F2018C00640",
+    "bopRegisterId" : "F2018C00641",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "F50.0"
@@ -1314,8 +1339,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "female sexual dysfunction",
-    "rhRegisterId" : "F2016L01677",
-    "bopRegisterId" : "F2016L01684",
+    "rhRegisterId" : "F2018C00673",
+    "bopRegisterId" : "F2018C00674",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "femoroacetabular impingement syndrome",
@@ -1372,7 +1397,7 @@
     } ]
   }, {
     "conditionName" : "gastric ulcer and duodenal ulcer",
-    "rhRegisterId" : "F2017C00762",
+    "rhRegisterId" : "F2018C00645",
     "bopRegisterId" : "F2017C00758",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -1408,8 +1433,8 @@
     } ]
   }, {
     "conditionName" : "gingivitis",
-    "rhRegisterId" : "F2013L01121",
-    "bopRegisterId" : "F2013L01124",
+    "rhRegisterId" : "F2018C00667",
+    "bopRegisterId" : "F2018C00669",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "A69.1"
@@ -1618,14 +1643,17 @@
       "code" : "Q63.11"
     } ]
   }, {
-    "conditionName" : "human T-cell lymphotropic virus type-1",
-    "rhRegisterId" : "F2010L00014",
-    "bopRegisterId" : "F2010L00015",
-    "icdCodes" : [ ]
+    "conditionName" : "human T-cell lymphotropic virus type-1 infection",
+    "rhRegisterId" : "F2018L01478",
+    "bopRegisterId" : "F2018L01480",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "Z22.6"
+    } ]
   }, {
-    "conditionName" : "human immunodeficiency virus",
-    "rhRegisterId" : "F2010L00012",
-    "bopRegisterId" : "F2010L00013",
+    "conditionName" : "human immunodeficiency virus infection",
+    "rhRegisterId" : "F2018L01841",
+    "bopRegisterId" : "F2018L01842",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "B20"
@@ -1663,9 +1691,12 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "hypopituitarism",
-    "rhRegisterId" : "F2013C00177",
-    "bopRegisterId" : "F2013C00178",
-    "icdCodes" : [ ]
+    "rhRegisterId" : "F2019L00009",
+    "bopRegisterId" : "F2019L00012",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "E23.0"
+    } ]
   }, {
     "conditionName" : "hypothyroidism",
     "rhRegisterId" : "F2017C00754",
@@ -1673,8 +1704,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "iliotibial band syndrome",
-    "rhRegisterId" : "F2010L01050",
-    "bopRegisterId" : "F2010L01051",
+    "rhRegisterId" : "F2018L01838",
+    "bopRegisterId" : "F2018L01839",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M76.3"
@@ -1705,7 +1736,7 @@
     } ]
   }, {
     "conditionName" : "inflammatory bowel disease",
-    "rhRegisterId" : "F2012L00449",
+    "rhRegisterId" : "F2018C00666",
     "bopRegisterId" : "F2012L00452",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -1746,8 +1777,8 @@
     } ]
   }, {
     "conditionName" : "internal derangement of the knee",
-    "rhRegisterId" : "F2010L01664",
-    "bopRegisterId" : "F2010L01665",
+    "rhRegisterId" : "F2018L01843",
+    "bopRegisterId" : "F2018L01844",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M23.2"
@@ -1802,8 +1833,8 @@
     } ]
   }, {
     "conditionName" : "ischaemic heart disease",
-    "rhRegisterId" : "F2017C00851",
-    "bopRegisterId" : "F2017C00852",
+    "rhRegisterId" : "F2018C00631",
+    "bopRegisterId" : "F2018C00634",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "I20"
@@ -1871,8 +1902,8 @@
     } ]
   }, {
     "conditionName" : "localised sclerosis",
-    "rhRegisterId" : "F2018L00883",
-    "bopRegisterId" : "F2018L00884",
+    "rhRegisterId" : "F2019C00015",
+    "bopRegisterId" : "F2019C00016",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "L94.0"
@@ -1882,8 +1913,8 @@
     } ]
   }, {
     "conditionName" : "loss of teeth",
-    "rhRegisterId" : "F2015L01678",
-    "bopRegisterId" : "F2015L01679",
+    "rhRegisterId" : "F2018C00665",
+    "bopRegisterId" : "F2018C00668",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "K08.1"
@@ -1893,8 +1924,8 @@
     } ]
   }, {
     "conditionName" : "lumbar spondylosis",
-    "rhRegisterId" : "F2014L00933",
-    "bopRegisterId" : "F2014L00930",
+    "rhRegisterId" : "F2018C00478",
+    "bopRegisterId" : "F2018C00480",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M47.16"
@@ -1995,8 +2026,8 @@
     } ]
   }, {
     "conditionName" : "malignant neoplasm of the breast",
-    "rhRegisterId" : "F2017C00766",
-    "bopRegisterId" : "F2017C00765",
+    "rhRegisterId" : "F2018C00670",
+    "bopRegisterId" : "F2018C00671",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "C50"
@@ -2253,11 +2284,11 @@
     } ]
   }, {
     "conditionName" : "methaemoglobinaemia",
-    "rhRegisterId" : "F2010L01660",
-    "bopRegisterId" : "F2010L01661",
+    "rhRegisterId" : "F2019L00222",
+    "bopRegisterId" : "F2019L00223",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
-      "code" : "D74.8"
+      "code" : "D74"
     } ]
   }, {
     "conditionName" : "microscopic polyangiitis",
@@ -2269,7 +2300,7 @@
     } ]
   }, {
     "conditionName" : "migraine",
-    "rhRegisterId" : "F2018L00012",
+    "rhRegisterId" : "F2018C00853",
     "bopRegisterId" : "F2018L00015",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -2285,8 +2316,8 @@
     } ]
   }, {
     "conditionName" : "moderate to severe traumatic brain injury",
-    "rhRegisterId" : "F2012L01804",
-    "bopRegisterId" : "F2012L01805",
+    "rhRegisterId" : "F2018L01487",
+    "bopRegisterId" : "F2018L01488",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "morbid obesity",
@@ -2295,7 +2326,7 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "motor neurone disease",
-    "rhRegisterId" : "F2013L01655",
+    "rhRegisterId" : "F2018C00791",
     "bopRegisterId" : "F2013L01656",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -2311,8 +2342,8 @@
     } ]
   }, {
     "conditionName" : "multiple sclerosis",
-    "rhRegisterId" : "F2017C00837",
-    "bopRegisterId" : "F2011L01738",
+    "rhRegisterId" : "F2018C00660",
+    "bopRegisterId" : "F2018C00664",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "G35"
@@ -2371,6 +2402,19 @@
       "version" : "ICD-10-AM",
       "code" : "D44.3"
     } ]
+  }, {
+    "conditionName" : "neurocognitive disorder with Lewy bodies",
+    "rhRegisterId" : "F2019L00229",
+    "bopRegisterId" : "F2019L00231",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "G31.3"
+    } ]
+  }, {
+    "conditionName" : "non-Hodgkin lymphoma",
+    "rhRegisterId" : "F2018L01489",
+    "bopRegisterId" : "F2018L01490",
+    "icdCodes" : [ ]
   }, {
     "conditionName" : "non-Hodgkin's lymphoma",
     "rhRegisterId" : "F2017C00834",
@@ -2630,8 +2674,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "pilonidal sinus",
-    "rhRegisterId" : "F2010L02310",
-    "bopRegisterId" : "F2010L02311",
+    "rhRegisterId" : "F2019L00248",
+    "bopRegisterId" : "F2019L00249",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "L05"
@@ -2730,7 +2774,7 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "psoriasis",
-    "rhRegisterId" : "F2012L00938",
+    "rhRegisterId" : "F2018C00658",
     "bopRegisterId" : "F2012L00939",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
@@ -2784,8 +2828,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "reactive arthritis",
-    "rhRegisterId" : "F2010L01042",
-    "bopRegisterId" : "F2010L01043",
+    "rhRegisterId" : "F2018L01164",
+    "bopRegisterId" : "F2018L01165",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M02"
@@ -2886,8 +2930,8 @@
     } ]
   }, {
     "conditionName" : "sarcoidosis",
-    "rhRegisterId" : "F2016L01144",
-    "bopRegisterId" : "F2016L01143",
+    "rhRegisterId" : "F2019C00013",
+    "bopRegisterId" : "F2019C00096",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "D86"
@@ -2903,15 +2947,15 @@
   }, {
     "conditionName" : "schizophrenia",
     "rhRegisterId" : "F2011C00669",
-    "bopRegisterId" : "F2016L01685",
+    "bopRegisterId" : "F2018C00647",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "F20.0"
     } ]
   }, {
     "conditionName" : "scrub typhus",
-    "rhRegisterId" : "F2009L04043",
-    "bopRegisterId" : "F2009L04044",
+    "rhRegisterId" : "F2018L01162",
+    "bopRegisterId" : "F2018L01163",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "A75.3"
@@ -2966,16 +3010,16 @@
     } ]
   }, {
     "conditionName" : "sinus barotrauma",
-    "rhRegisterId" : "F2017C00074",
-    "bopRegisterId" : "F2017C00075",
+    "rhRegisterId" : "F2019L00235",
+    "bopRegisterId" : "F2019L00237",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "T70.1"
     } ]
   }, {
     "conditionName" : "sinusitis",
-    "rhRegisterId" : "F2010L00553",
-    "bopRegisterId" : "F2010L00554",
+    "rhRegisterId" : "F2018L01175",
+    "bopRegisterId" : "F2018L01177",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "J01"
@@ -3111,13 +3155,13 @@
     } ]
   }, {
     "conditionName" : "subdural haematoma",
-    "rhRegisterId" : "F2011L00784",
-    "bopRegisterId" : "F2011L00786",
+    "rhRegisterId" : "F2019C00222",
+    "bopRegisterId" : "F2019C00221",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "substance use disorder",
-    "rhRegisterId" : "F2017L01444",
-    "bopRegisterId" : "F2017L01445",
+    "rhRegisterId" : "F2018C00653",
+    "bopRegisterId" : "F2018C00651",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "sudden unexplained death",
@@ -3129,8 +3173,8 @@
     } ]
   }, {
     "conditionName" : "suicide and attempted suicide",
-    "rhRegisterId" : "F2018C00189",
-    "bopRegisterId" : "F2018C00152",
+    "rhRegisterId" : "F2018C00632",
+    "bopRegisterId" : "F2018C00628",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "systemic lupus erythematosus",
@@ -3164,8 +3208,8 @@
     } ]
   }, {
     "conditionName" : "thoracic spondylosis",
-    "rhRegisterId" : "F2014L00931",
-    "bopRegisterId" : "F2014L00929",
+    "rhRegisterId" : "F2018C00481",
+    "bopRegisterId" : "F2018C00482",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M47.14"
@@ -3220,8 +3264,8 @@
     } ]
   }, {
     "conditionName" : "tooth wear",
-    "rhRegisterId" : "F2017L01059",
-    "bopRegisterId" : "F2017L01062",
+    "rhRegisterId" : "F2018C00585",
+    "bopRegisterId" : "F2018C00635",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "K03.0"
@@ -3247,6 +3291,14 @@
     "rhRegisterId" : "F2017C00814",
     "bopRegisterId" : "F2017C00812",
     "icdCodes" : [ ]
+  }, {
+    "conditionName" : "trigger finger",
+    "rhRegisterId" : "F2019L00227",
+    "bopRegisterId" : "F2019L00238",
+    "icdCodes" : [ {
+      "version" : "ICD-10-AM",
+      "code" : "M65.3"
+    } ]
   }, {
     "conditionName" : "trochanteric bursitis and gluteal tendinopathy",
     "rhRegisterId" : "F2015L00010",

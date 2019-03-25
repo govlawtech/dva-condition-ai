@@ -71,14 +71,15 @@ namespace ConditionMatcherAzureFunction.Properties {
         ///      &quot;code&quot; : &quot;M76.6&quot;
         ///    } ]
         ///  }, {
-        ///    &quot;conditionName&quot; : &quot;Alzheimer-type dementia&quot;,
-        ///    &quot;rhRegisterId&quot; : &quot;F2017C00820&quot;,
-        ///    &quot;bopRegisterId&quot; : &quot;F2014C00072&quot;,
-        ///    &quot;icdCodes&quot; : [ ]
-        ///  }, {
-        ///    &quot;conditionName&quot; : &quot;Barrett&apos;s oesophagus&quot;,
-        ///    &quot;rhRegisterId&quot; : &quot;F2016L01135&quot;,
-        ///    &quot;bopRegisterI [rest of string was truncated]&quot;;.
+        ///    &quot;conditionName&quot; : &quot;Alzheimer disease&quot;,
+        ///    &quot;rhRegisterId&quot; : &quot;F2019L00240&quot;,
+        ///    &quot;bopRegisterId&quot; : &quot;F2019L00239&quot;,
+        ///    &quot;icdCodes&quot; : [ {
+        ///      &quot;version&quot; : &quot;ICD-10-AM&quot;,
+        ///      &quot;code&quot; : &quot;G30.0&quot;
+        ///    }, {
+        ///      &quot;version&quot; : &quot;ICD-10-AM&quot;,
+        ///      &quot;code&quot; : &quot;G [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string conditionsJson {
             get {
