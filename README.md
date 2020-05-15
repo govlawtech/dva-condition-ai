@@ -1,6 +1,6 @@
 # Instructions for Consumers
 
-Load this [Postman collection](../master/postmanExample.json) to see the endpoint and required headers.
+Load this [Postman collection](../master/postmanExample.json) to see the endpoint, required headers and query parameters.
 
 To use version 2 of the API, include a header `version` with value `v2` in the request.
 
