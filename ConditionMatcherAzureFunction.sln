@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionMatcherAzureFunction", "ConditionMatcherAzureFunction\ConditionMatcherAzureFunction.csproj", "{68375060-836A-4612-97BE-E18FD6F1EEAC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B077C15A-585C-455F-82BB-7D8FA68E8C8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionMatcherLogsAnalyzer", "ConditionMatcherLogsAnalyzer\ConditionMatcherLogsAnalyzer.csproj", "{DC68650A-03D6-4588-8312-7AF13D5773DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionMatcherAzureFunction.Tests", "ConditionMatcherAzureFunction.Tests\ConditionMatcherAzureFunction.Tests.csproj", "{8A638FE0-A222-4705-AE0D-49F55A7F33A2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp1\FunctionApp1.csproj", "{5CA06AB8-0B5B-4364-9943-2052465043B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionMatcher", "ConditionMatcher\ConditionMatcher.csproj", "{1A9F173E-99A8-48F0-ACB5-7EE829CEBD12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,22 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68375060-836A-4612-97BE-E18FD6F1EEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68375060-836A-4612-97BE-E18FD6F1EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68375060-836A-4612-97BE-E18FD6F1EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68375060-836A-4612-97BE-E18FD6F1EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC68650A-03D6-4588-8312-7AF13D5773DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC68650A-03D6-4588-8312-7AF13D5773DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC68650A-03D6-4588-8312-7AF13D5773DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC68650A-03D6-4588-8312-7AF13D5773DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A638FE0-A222-4705-AE0D-49F55A7F33A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A638FE0-A222-4705-AE0D-49F55A7F33A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A638FE0-A222-4705-AE0D-49F55A7F33A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A638FE0-A222-4705-AE0D-49F55A7F33A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CA06AB8-0B5B-4364-9943-2052465043B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CA06AB8-0B5B-4364-9943-2052465043B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CA06AB8-0B5B-4364-9943-2052465043B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CA06AB8-0B5B-4364-9943-2052465043B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9F173E-99A8-48F0-ACB5-7EE829CEBD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9F173E-99A8-48F0-ACB5-7EE829CEBD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9F173E-99A8-48F0-ACB5-7EE829CEBD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9F173E-99A8-48F0-ACB5-7EE829CEBD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

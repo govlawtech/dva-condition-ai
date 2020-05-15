@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConditionMatcherAzureFunction\ConditionMatcherAzureFunction.csproj">
-      <Project>{68375060-836a-4612-97be-e18fd6f1eeac}</Project>
-      <Name>ConditionMatcherAzureFunction</Name>
+    <ProjectReference Include="..\ConditionMatcher\ConditionMatcher.csproj">
+      <Project>{1a9f173e-99a8-48f0-acb5-7ee829cebd12}</Project>
+      <Name>ConditionMatcher</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
