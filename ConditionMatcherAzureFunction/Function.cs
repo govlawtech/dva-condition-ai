@@ -132,9 +132,9 @@ namespace ConditionMatcherAzureFunction
                 
             }
 
-            catch (HttpRequestException)
+            catch (HttpRequestException e)
             {
-                log.Error("Failed to get answer from LUIS.");
+                log.Error("Failed to get answer from LUIS.",e);
                 return new StatusCodeResult(502);
             }
 
