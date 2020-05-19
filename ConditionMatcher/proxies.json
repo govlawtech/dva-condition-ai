@@ -37,6 +37,16 @@
       "requestOverrides": {
         "backend.request.headers.Accept": "application/json"
       }
+    },
+    "getMrcaOperations": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/getMrcaOperations"
+      },
+      "backendUri": "https://dvasopapi.azurewebsites.net/getOperations",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
     }
 
 
