@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "status": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/status"
+      },
+      "backendUri": "https://dvasopapi.azurewebsites.net/status"
+    },
+    "suggestCondition": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/suggestSoPCondition"
+      },
+      "backendUri": "https://dvasopapiv2functions.azurewebsites.net/api/suggestSoPCondition"
+    },
+   "getConditions": {
+        "matchCondition": {
+          "methods": [ "GET" ],
+        "route": "/api/getConditions"
+      },
+      "backendUri": "https://dvasopapi.azurewebsites.net/getConditions"
+    }
+
+
+  }
+}

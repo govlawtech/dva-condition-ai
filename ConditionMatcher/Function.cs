@@ -138,7 +138,6 @@ namespace ConditionMatcherAzureFunction
             catch (HttpRequestException e)
             {
                 log.LogError("Failed to get answer from LUIS.",e);
-                return new StatusCodeResult(502);
             }
 
             //https://www.owasp.org/index.php/REST_Security_Cheat_Sheet
