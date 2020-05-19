@@ -13,14 +13,30 @@
         "methods": [ "GET" ],
         "route": "/api/suggestSoPCondition"
       },
-      "backendUri": "https://dvasopapiv2functions.azurewebsites.net/api/suggestSoPCondition"
+      "backendUri": "https://dvasopapiv2functions.azurewebsites.net/api/suggestSoPConditionInternal",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json; charset=utf-8"
+      }
     },
-   "getConditions": {
-        "matchCondition": {
-          "methods": [ "GET" ],
+    "getConditions": {
+      "matchCondition": {
+        "methods": [ "GET" ],
         "route": "/api/getConditions"
       },
-      "backendUri": "https://dvasopapi.azurewebsites.net/getConditions"
+      "backendUri": "https://dvasopapi.azurewebsites.net/getConditions",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
+    },
+    "getVeaActivities": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/getVeaActivities"
+      },
+      "backendUri": "https://dvasopapi.azurewebsites.net/getVeaActivities",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
     }
 
 

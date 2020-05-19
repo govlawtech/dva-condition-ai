@@ -32,7 +32,7 @@ namespace ConditionMatcherAzureFunction
 {
     public static class ConditionMatcherFunction
     {
-        private static HttpClient _httpClient = new HttpClient() {Timeout = new TimeSpan(0, 0, 5)};
+        private static HttpClient _httpClient = new HttpClient() {Timeout = new TimeSpan(0, 0, 30)};
 
         private static TelemetryClient telemetry = new TelemetryClient(
             new TelemetryConfiguration()
@@ -48,7 +48,7 @@ namespace ConditionMatcherAzureFunction
 
         [FunctionName("ConditionMatcher")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "suggestSoPCondition")]
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "suggestSoPConditionInternal")]
             HttpRequest req, ILogger log, ExecutionContext context)
         {
             telemetry.Context.Operation.Id = context.InvocationId.ToString();
@@ -135,7 +135,7 @@ namespace ConditionMatcherAzureFunction
                 }
             }
 
-            catch (HttpRequestException e)
+            catch (Exception e)
             {
                 log.LogError("Failed to get answer from LUIS.",e);
             }
