@@ -989,8 +989,8 @@
     } ]
   }, {
     "conditionName" : "coeliac disease",
-    "rhRegisterId" : "F2010L03248",
-    "bopRegisterId" : "F2010L03249",
+    "rhRegisterId" : "F2020L00489",
+    "bopRegisterId" : "F2020L00498",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "K90.0"
@@ -1277,6 +1277,11 @@
       "code" : "D47.3"
     } ]
   }, {
+    "conditionName" : "explosive blast injury",
+    "rhRegisterId" : "F2020L00485",
+    "bopRegisterId" : "F2020L00487",
+    "icdCodes" : [ ]
+  }, {
     "conditionName" : "external bruise",
     "rhRegisterId" : "F2016L00008",
     "bopRegisterId" : "F2016L00005",
@@ -1412,6 +1417,11 @@
       "version" : "ICD-10-AM",
       "code" : "M10"
     } ]
+  }, {
+    "conditionName" : "gunshot injury",
+    "rhRegisterId" : "F2020L00495",
+    "bopRegisterId" : "F2020L00491",
+    "icdCodes" : [ ]
   }, {
     "conditionName" : "haemochromatosis",
     "rhRegisterId" : "F2012L00450",
@@ -2622,8 +2632,8 @@
     } ]
   }, {
     "conditionName" : "patellar tendinopathy",
-    "rhRegisterId" : "F2011L01743",
-    "bopRegisterId" : "F2011L01745",
+    "rhRegisterId" : "F2020L00494",
+    "bopRegisterId" : "F2020L00499",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M76.5"
@@ -2693,11 +2703,6 @@
       "code" : "L56.2"
     } ]
   }, {
-    "conditionName" : "physical injury due to munitions discharge",
-    "rhRegisterId" : "F2012L01789",
-    "bopRegisterId" : "F2012L01790",
-    "icdCodes" : [ ]
-  }, {
     "conditionName" : "pilonidal sinus",
     "rhRegisterId" : "F2019L00248",
     "bopRegisterId" : "F2019L00249",
@@ -2730,8 +2735,8 @@
     "icdCodes" : [ ]
   }, {
     "conditionName" : "polyarteritis nodosa",
-    "rhRegisterId" : "F2010L03258",
-    "bopRegisterId" : "F2010L03259",
+    "rhRegisterId" : "F2020L00500",
+    "bopRegisterId" : "F2020L00501",
     "icdCodes" : [ {
       "version" : "ICD-10-AM",
       "code" : "M30.0"
@@ -3150,8 +3155,8 @@
     } ]
   }, {
     "conditionName" : "sprain and strain",
-    "rhRegisterId" : "F2011L01726",
-    "bopRegisterId" : "F2011L01727",
+    "rhRegisterId" : "F2020L00482",
+    "bopRegisterId" : "F2020L00483",
     "icdCodes" : [ ]
   }, {
     "conditionName" : "steatohepatitis",

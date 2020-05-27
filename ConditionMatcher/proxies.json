@@ -47,8 +47,49 @@
       "requestOverrides": {
         "backend.request.headers.Accept": "application/json"
       }
+    },
+    "refreshDevTestCache": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/refreshDevTestCache"
+      },
+      "backendUri": "https://dvasopapi-devtest.azurewebsites.net/refreshCache",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
+    },
+    "refreshProdCache": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/refreshProdCache"
+      },
+      "backendUri": "https://dvasopapi.azurewebsites.net/refreshCache",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
+    },
+
+    "devtestStatus": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/devtestStatus"
+      },
+      "backendUri": "https://dvasopapi-devtest.azurewebsites.net/status",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
+    },
+    "getVeaActivitiesDevtest": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/getVeaActivities-devtest"
+      },
+      "backendUri": "https://dvasopapi-devtest.azurewebsites.net/getVeaActivities",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
     }
 
-
   }
+  
 }
