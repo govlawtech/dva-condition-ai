@@ -88,6 +88,16 @@
       "requestOverrides": {
         "backend.request.headers.Accept": "application/json"
       }
+    },
+    "getConnectionToServiceDevTest": {
+      "matchCondition": {
+        "methods": [ "POST" ],
+        "route": "/api/getConnectionToService-devtest"
+      },
+      "backendUri": "https://dvasopapi-devtest.azurewebsites.net/getConnectionToService",
+      "requestOverrides": {
+        "backend.request.headers.Accept": "application/json"
+      }
     }
 
   }
