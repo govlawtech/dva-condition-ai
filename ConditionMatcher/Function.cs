@@ -130,7 +130,12 @@ namespace ConditionMatcherAzureFunction
                     IList<Tuple<string, int>> matchingIntents =
                         await luisClient.GetMatchingIntents(userDescription);
 
-                    conditionMatchData = matchingIntents.Where(i => i.Item1 != "None").ToList();
+                    conditionMatchData = matchingIntents
+                        .Where(i => i.Item1 != "None")
+                        .Where(i => _conditionNamesLoweredToConditionName.Keys.Contains(i.Item1.ToLowerInvariant().Trim()))
+                        .ToList();
+
+
                     luisCalled = true;
                 }
             }
